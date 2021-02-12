@@ -11,7 +11,7 @@ function App() {
   
   const fetchCityWeather=()=>{
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=963424f43671e87392a23f7c94544f2c`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=963424f43671e87392a23f7c94544f2c`
     )
       .then((response) => response.json())
       .then((result)=>{
